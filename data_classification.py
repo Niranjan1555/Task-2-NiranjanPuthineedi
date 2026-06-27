@@ -45,4 +45,4 @@ if prediction[0] == 0:
 elif prediction[0] == 1:
     print("Flower Type: Versicolor")
 else:
-    print("Flower Type: Virginica")
+    print("Flower Type: Virginicas")
