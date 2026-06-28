@@ -35,7 +35,7 @@ print("\nClassification Report:")
 print(classification_report(y_test, y_pred))
 
 # Predict a new flower
-sample = [[5.1, 3.5, 1.4, 0.2]]
+sample = [[5.1, 3.5, 1.4, 0.3]]
 prediction = model.predict(sample)
 
 print("\nPrediction for sample", sample)
